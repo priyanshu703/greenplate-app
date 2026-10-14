@@ -1,0 +1,22 @@
+{
+  "name": "greenplate",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Greenplate multi-user nutrition and smart pantry app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-mongo": "^5.1.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "express-session": "^1.18.1",
+    "helmet": "^8.0.0",
+    "mongodb": "^6.12.0"
+  }
+}
